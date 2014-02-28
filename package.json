@@ -1,0 +1,12 @@
+{
+  "name": "mac-classic",
+  "theme": "syntax",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A short description of your theme",
+  "repository": "https://github.com/chipersoft/atom-mac-classic",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  }
+}
