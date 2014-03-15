@@ -3,7 +3,7 @@
   "theme": "syntax",
   "version": "0.2.0",
   "private": true,
-  "description": "A short description of your theme",
+  "description": "A conversion of the original TextMate 'Mac Classic' theme",
   "repository": "https://github.com/chipersoft/atom-mac-classic",
   "license": "MIT",
   "engines": {
