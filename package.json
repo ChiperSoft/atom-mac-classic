@@ -1,7 +1,7 @@
 {
   "name": "mac-classic",
   "theme": "syntax",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "description": "A conversion of the original TextMate 'Mac Classic' theme",
   "repository": "https://github.com/chipersoft/atom-mac-classic",
