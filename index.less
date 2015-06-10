@@ -1,26 +1,43 @@
-.editor, .editor .gutter {
+:host,
+atom-text-editor {
+
   background-color: #FFFFFF;
   color: #000000;
+
+  .gutter {
+    background-color: #FFFFFF;
+    color: #000000;
+  }
+
+  &.is-focused {
+
+    .cursor {
+      border-color: #000000;
+      border-left: 2px solid;
+    }
+
+    .line-number.cursor-line-no-selection,
+    .line.cursor-line {
+      background-color: rgba(0, 0, 0, 0.07);
+    }
+
+  }
+
+  .indent-guide {
+    // box-shadow: inset 1px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: inset 1px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .invisible-character {
+    opacity: 0.2;
+  }
+
 }
 
-.editor.is-focused .cursor {
-  border-color: #000000;
-}
-
-.editor.is-focused .selection .region {
-  background-color: rgba(77, 151, 255, 0.33);
-}
-
-.editor.is-focused .line-number.cursor-line-no-selection, .editor.is-focused .line.cursor-line {
-  background-color: rgba(0, 0, 0, 0.07);
-}
-
-.editor .indent-guide {
-  box-shadow: inset 1px 0 rgba(0,0,0,0.5);
-}
-
-.editor .invisible-character {
-  opacity: 0.2;
+atom-text-editor::shadow {
+  .selection .region {
+    background-color: rgba(77, 151, 255, 0.33);
+  }
 }
 
 .comment {
