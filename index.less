@@ -143,13 +143,19 @@ atom-text-editor::shadow {
   background-color: #FFD0D0;
 }
 
-.text .source, .string.unquoted {
-  background-color: rgba(0, 0, 0, 0.05);
-}
-
-.text .source .string.unquoted, .text .source .text .source {
-  background-color: rgba(0, 0, 0, 0.06);
-}
+// NOTE
+// Disabled these, because they don't play nice with the default line height
+// of 1.5, and don't really add significant usability improvements anyway.
+//
+// .text .source,
+// .string.unquoted {
+//   background-color: rgba(0, 0, 0, 0.05);
+// }
+//
+// .text .source .string.unquoted,
+// .text .source .text .source {
+//   background-color: rgba(0, 0, 0, 0.06);
+// }
 
 .meta.tag.preprocessor.xml {
   color: #68685B;
