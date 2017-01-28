@@ -1,4 +1,3 @@
-:host,
 atom-text-editor {
 
   background-color: #FFFFFF;
@@ -34,112 +33,112 @@ atom-text-editor {
 
 }
 
-atom-text-editor::shadow {
+atom-text-editor {
   .selection .region {
     background-color: rgba(77, 151, 255, 0.33);
   }
 }
 
-.comment {
+.syntax--comment {
   font-style: italic;
   color: #0066FF;
 }
 
-.keyword, .storage {
+.syntax--keyword, .syntax--storage {
   font-weight: bold;
   color: #0000FF;
 }
 
-.constant.numeric {
+.syntax--constant.syntax--numeric {
   color: #0000CD;
 }
 
-.constant {
+.syntax--constant {
   font-weight: bold;
   color: #C5060B;
 }
 
-.constant.language {
+.syntax--constant.syntax--language {
   font-weight: bold;
   color: #585CF6;
 }
 
-.variable.language, .variable.other {
+.syntax--variable.syntax--language, .syntax--variable.syntax--other {
   color: #318495;
 }
 
-.string {
+.syntax--string {
   color: #036A07;
 }
 
-.constant.character.escape, .string .source {
+.syntax--constant.syntax--character.syntax--escape, .syntax--string .syntax--source {
   color: #26B31A;
 }
 
-.meta.preprocessor {
+.syntax--meta.syntax--preprocessor {
   color: #1A921C;
 }
 
-.keyword.control.import {
+.syntax--keyword.syntax--control.syntax--import {
   font-weight: bold;
   color: #0C450D;
 }
 
-.entity.name.function, .support.function.any-method {
+.syntax--entity.syntax--name.syntax--function, .syntax--support.syntax--function.syntax--any-method {
   font-weight: bold;
   color: #0000A2;
 }
 
-.entity.name.type {
+.syntax--entity.syntax--name.syntax--type {
   text-decoration: underline;
 }
 
-.entity.other.inherited-class {
+.syntax--entity.syntax--other.syntax--inherited-class {
   font-style: italic;
 }
 
-.variable.parameter {
+.syntax--variable.syntax--parameter {
   font-style: italic;
 }
 
-.storage.type.method {
+.syntax--storage.syntax--type.syntax--method {
   color: #70727E;
 }
 
-.meta.section .entity.name.section, .declaration.section .entity.name.section {
+.syntax--meta.syntax--section .syntax--entity.syntax--name.syntax--section, .syntax--declaration.syntax--section .syntax--entity.syntax--name.syntax--section {
   font-style: italic;
 }
 
-.support.function {
+.syntax--support.syntax--function {
   font-weight: bold;
   color: #3C4C72;
 }
 
-.support.class, .support.type {
+.syntax--support.syntax--class, .syntax--support.syntax--type {
   font-weight: bold;
   color: #6D79DE;
 }
 
-.support.constant {
+.syntax--support.syntax--constant {
   font-weight: bold;
   color: #06960E;
 }
 
-.support.variable {
+.syntax--support.syntax--variable {
   font-weight: bold;
   color: #21439C;
 }
 
-.keyword.operator.js {
+.syntax--keyword.syntax--operator.syntax--js {
   color: #687687;
 }
 
-.invalid {
+.syntax--invalid {
   color: #FFFFFF;
   background-color: #990000;
 }
 
-.invalid.deprecated.trailing-whitespace {
+.syntax--invalid.syntax--deprecated.trailing-whitespace {
   background-color: #FFD0D0;
 }
 
@@ -157,40 +156,40 @@ atom-text-editor::shadow {
 //   background-color: rgba(0, 0, 0, 0.06);
 // }
 
-.meta.tag.preprocessor.xml {
+.syntax--meta.syntax--tag.syntax--preprocessor.xml {
   color: #68685B;
 }
 
-.meta.tag.sgml.doctype, .meta.tag.sgml.doctype .entity, .meta.tag.sgml.doctype .string, .meta.tag.preprocessor.xml, .meta.tag.preprocessor.xml .entity, .meta.tag.preprocessor.xml .string {
+.syntax--meta.syntax--tag.syntax--sgml.syntax--doctype, .syntax--meta.syntax--tag.syntax--sgml.syntax--doctype .syntax--entity, .syntax--meta.syntax--tag.syntax--sgml.syntax--doctype .syntax--string, .syntax--meta.syntax--tag.syntax--preprocessor.syntax--xml, .syntax--meta.syntax--tag.syntax--preprocessor.syntax--xml .syntax--entity, .syntax--meta.syntax--tag.syntax--preprocessor.syntax--xml .syntax--string {
   color: #888888;
 }
 
-.string.quoted.docinfo.doctype.DTD {
+.syntax--string.syntax--quoted.docinfo.syntax--doctype.DTD {
   font-style: italic;
 }
 
-.meta.tag, .declaration.tag {
+.syntax--meta.syntax--tag, .syntax--declaration.syntax--tag {
   color: #1C02FF;
 }
 
-.entity.name.tag {
+.syntax--entity.syntax--name.syntax--tag {
   font-weight: bold;
 }
 
-.entity.other.attribute-name {
+.syntax--entity.syntax--other.syntax--attribute-name {
   font-style: italic;
 }
 
-.markup.heading {
+.syntax--markup.syntax--heading {
   font-weight: bold;
   color: #0C07FF;
 }
 
-.markup.quote {
+.syntax--markup.syntax--quote {
   font-style: italic;
   color: #000000;
 }
 
-.markup.list {
+.syntax--markup.syntax--list {
   color: #B90690;
 }
